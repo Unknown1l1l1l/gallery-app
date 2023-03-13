@@ -35,7 +35,7 @@ function App() {
               })}
             </div>
           ) : (
-            <PrintCategory category={categories[filter]} />
+            <PrintCategory category={categories[filter as any]} />
           )}
         </div>
       </div>
